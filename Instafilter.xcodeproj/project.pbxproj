@@ -11,6 +11,7 @@
 		1CE888C428492FCF005836D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE888C328492FCF005836D2 /* ContentView.swift */; };
 		1CE888C628492FCF005836D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE888C528492FCF005836D2 /* Assets.xcassets */; };
 		1CE888C928492FCF005836D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CE888C828492FCF005836D2 /* Preview Assets.xcassets */; };
+		1CE888D0284A8BB0005836D2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE888CF284A8BB0005836D2 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1CE888C328492FCF005836D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CE888C528492FCF005836D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CE888C828492FCF005836D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CE888CF284A8BB0005836D2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1CE888C128492FCF005836D2 /* InstafilterApp.swift */,
 				1CE888C328492FCF005836D2 /* ContentView.swift */,
+				1CE888CF284A8BB0005836D2 /* ImagePicker.swift */,
 				1CE888C528492FCF005836D2 /* Assets.xcassets */,
 				1CE888C728492FCF005836D2 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE888D0284A8BB0005836D2 /* ImagePicker.swift in Sources */,
 				1CE888C428492FCF005836D2 /* ContentView.swift in Sources */,
 				1CE888C228492FCF005836D2 /* InstafilterApp.swift in Sources */,
 			);
@@ -269,6 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = 98D2K9Z9QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Instafilter/Preview Content\"";
+				DEVELOPMENT_TEAM = 98D2K9Z9QL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
